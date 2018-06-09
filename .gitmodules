@@ -4,3 +4,6 @@
 [submodule "API"]
 	path = API
 	url = https://github.com/FloweryRoads/FloweryRoads-API.git
+[submodule "Crawler"]
+	path = Crawler
+	url = https://github.com/FloweryRoads/FloweryRoads-Crawler.git
