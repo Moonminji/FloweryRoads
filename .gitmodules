@@ -1,3 +1,6 @@
 [submodule "Front"]
 	path = Front
 	url = https://github.com/FloweryRoads/FloweryRoads-Front.git
+[submodule "API"]
+	path = API
+	url = https://github.com/FloweryRoads/FloweryRoads-API.git
