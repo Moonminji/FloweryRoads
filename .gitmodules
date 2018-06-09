@@ -7,3 +7,6 @@
 [submodule "Crawler"]
 	path = Crawler
 	url = https://github.com/FloweryRoads/FloweryRoads-Crawler.git
+[submodule "SafetyDataAPI"]
+	path = SafetyDataAPI
+	url = https://github.com/FloweryRoads/FR-SafetyData-API.git
