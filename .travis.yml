@@ -1,0 +1,17 @@
+os: linux
+dist: trusty
+sudo: false
+git:
+  submodules: true
+script:
+  - echo "Start Travis"
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - git checkout master
+  - git submodule update --recursive --remote
+  - git add -A
+  - git commit -a -m "Updated FloeryRoads submodule.";echo $?;echo $?;
+  - REPO=$(git remote get-url origin | sed -e "s/$GITHUB/$GITHUB_TOKEN@$GITHUB/g")
+  - git push $REPO master
+  - echo "Gist Submodule Fetch Done!"
+
